@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singleplayer</title>
+    <link rel="stylesheet" href="../css/singleplayer.css">
+    <link rel="shortcut icon" href="../image/icon1.png">
+</head>
+
+<body>
+    <div class="contain">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a id="single" href="singleplayer.html">Singleplayer</a></li>
+                <li><a href="multiplayer.html">Multiplayer</a></li>
+            </ul>
+        </nav>
+        <h1>Rock Paper Scissors</h1>
+        <p>Try your luck!</p>
+        <div class="bigbox">
+            <div id="youbox">
+                <p>You</p>
+            </div>
+            <div id="compbox">
+                <p>Computer</p>
+            </div>
+        </div>
+        <p>Choose One!</p>
+        <p id="result">Waiting For Result...</p>
+        <div class="bigbox">
+            <button class="btn" onclick="rock()">Rock</button>
+            <button class="btn" onclick="paper()">Paper</button>
+            <button class="btn" onclick="scissor()">Scissor</button>
+        </div>
+        <p id="won">Won:0</p>
+        <p id="lost">Lost:0</p>
+        <p id="draw">Draw:0</p>
+        <p id="trial">Total Trials:0</p>
+    </div>
+</body>
+<script src="../javascript/singleplayer.js"></script>
+
+</html>

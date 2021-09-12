@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&family=Oswald:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.contain{
+    width: 100vw;
+    text-align: center;
+    background-image: url(../image/bgsingleplayer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    height: 15vh;
+    width: 100vw;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin: 0vh 13vw;
+    margin-top: 2vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.5vh 0.5vw;
+}
+a:hover{
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+}
+#single{
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.contain h1{
+    font-family: 'Oswald', sans-serif;
+}
+.contain p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+.bigbox{
+    display: flex;
+}
+#youbox{
+    text-align: center;
+    height: 40vh;
+    width: 60vw;
+    background-color: white;
+    color: black;
+    margin: 0vh 10vw;
+}
+#youbox img{
+    height: 30vh;
+    width: 20vw;
+}
+#compbox{
+    text-align: center;
+    height: 40vh;
+    width: 60vw;
+    background-color: white;
+    color: black;
+    margin: 0vh 10vw;
+}
+#compbox img{
+    height: 30vh;
+    width: 20vw;
+}
+.btn{
+    height: 5vh;
+    width: 10vw;
+    margin: 5vh 12vw;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(202, 199, 199);
+}
+@media only screen and (max-width: 1040px) {
+    li{
+        margin: 0vh 9vw;
+        margin-top: 2vh;
+    }
+    a{
+        font-size: 0.8rem;
+    }
+   .contain h1{
+       font-size: 1rem;
+   }
+   .contain p{
+       font-size: 0.8rem;
+   } 
+   .btn{
+       font-size: 0.8rem;
+       border-radius: 4px;
+   }
+}
